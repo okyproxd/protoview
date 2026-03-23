@@ -16,7 +16,7 @@ jobs:
         with:
           sdk-channel: release
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: protoview-fap
           path: ${{ steps.build-app.outputs.fap-artifacts-path }}
